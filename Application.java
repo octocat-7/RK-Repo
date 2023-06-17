@@ -14,5 +14,15 @@ public class ReadAndPrintScores
 	catch(IOException e)
 	{	System.out.println( e );
 	}
+    #feature202 changes by Prahlad on NewPolicies Module in June2023
+	 public static void main(String[] args) {
+
+    int count = 0, num = 123456;
+
+    for (; num != 0; num /= 10, ++count) {
     }
+
+    System.out.println("Number of digits: " + count);
+  }
+}
 }
